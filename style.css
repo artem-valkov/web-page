@@ -219,7 +219,7 @@
   color: #9aa0ab;
 }
 
-.block-about1 {
+.block-about:nth-child(2) {
   width: 280px;
   height: 120px;
   position: absolute;
@@ -228,7 +228,7 @@
   display: inline-block;
 }
 
-.block-about2 {
+.block-about:nth-child(3) {
   width: 280px;
   height: 120px;
   position: absolute;
@@ -237,7 +237,7 @@
   display: inline-block;
 }
 
-.block-about3 {
+.block-about:nth-child(4) {
   width: 280px;
   height: 120px;
   position: absolute;
@@ -316,11 +316,11 @@
   line-height: 60px;
 }
 
-.dot1 {
+.black-dot {
   color: #314a5b;
 }
 
-.dot2 {
+.red-dot {
   color: #fa5c65;
 }
 
