@@ -4,7 +4,7 @@
 }
 .header {
   background-size: contain;
-  background: url("img/header-bg.svg") no-repeat;
+  background: url("img/header-bg-min.png") no-repeat;
   width: 1370px;
   height: 1057px;
   position: relative;
