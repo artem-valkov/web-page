@@ -219,31 +219,24 @@
   color: #9aa0ab;
 }
 
-.block-about:nth-child(2) {
+.block-about {
   width: 280px;
   height: 120px;
   position: absolute;
-  left: 218px;
   bottom: 128px;
   display: inline-block;
+}
+
+.block-about:nth-child(2) {
+  left: 218px;
 }
 
 .block-about:nth-child(3) {
-  width: 280px;
-  height: 120px;
-  position: absolute;
   left: 539px;
-  bottom: 128px;
-  display: inline-block;
 }
 
 .block-about:nth-child(4) {
-  width: 280px;
-  height: 120px;
-  position: absolute;
   right: 228px;
-  bottom: 128px;
-  display: inline-block;
 }
 
 .about-img {
