@@ -99,27 +99,22 @@
   position: relative;
 }
 
-
-.main .block:nth-child(1) {
+.main .block {
   width: 258px;
   height: 169px;
   position: absolute;
   top: 82px;
+}
+
+.main .block:nth-child(1) {
   left: 219px;
 }
 
 .main .block:nth-child(2) {
-  width: 258px;
-  height: 169px;
-  position: absolute;
-  top: 82px;
-  left: 538px
+  left: 538px;
 }
+
 .main .block:nth-child(3) {
-   width: 258px;
-   height: 169px;
-   position: absolute;
-   top: 82px;
    right: 256px;
  }
 
