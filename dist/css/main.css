@@ -3,7 +3,7 @@
   margin: 0; }
 
 .header {
-  background: url("/images/header-bg-min.png") no-repeat;
+  background: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/dist/images/header-bg-min.png") no-repeat;
   background-size: contain;
   width: 1370px;
   height: 1057px;
