@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans');
+
 * {
   margin: auto;
 }
+
 .header {
-  background-size: contain;
   background: url("img/header-bg-min.png") no-repeat;
+  background-size: contain;
   width: 1370px;
   height: 1057px;
   position: relative;
@@ -21,7 +23,7 @@
 }
 
 .top-bar .logo-text {
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
   padding-left: 15px;
@@ -50,7 +52,6 @@
   font-family: Montserrat, sans-serif;
   padding-left: 25px;
   color: #263742;
-
 }
 
 .header .main-text .header-big-text {
@@ -75,7 +76,7 @@
   color: #263742;
   position: absolute;
   top: 548px;
-  left: 220px
+  left: 220px;
 }
 
 .header .main-text .btn {
@@ -85,12 +86,14 @@
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 700;
-  color: #ffffff;
+  text-align: center;
+  color: #fff;
   border-radius: 10px;
   position: absolute;
   top: 610px;
   left: 218px;
-  border: 0px;
+  border: 0;
+  text-decoration: none;
 }
 
 .main {
@@ -115,21 +118,19 @@
 }
 
 .main .block:nth-child(3) {
-   right: 256px;
- }
+  right: 256px;
+}
 
-
-
-.block-big-text {
+.main .block .block-big-text {
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
-  font-family: Montserrat,sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #465065;
 }
 
-.block-small-text {
+.main .block .block-small-text {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -138,7 +139,7 @@
   padding: auto;
 }
 
-.block-link {
+.main .block .block-link {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -189,13 +190,14 @@
   font-family: "Open Sans", sans-serif;
   color: #9aa0ab;
 }
- .our-team {
-   width: 224px;
-   height: 57px;
-   position: absolute;
-   top: 765px;
-   left: 219px;
- }
+
+.our-team {
+  width: 224px;
+  height: 57px;
+  position: absolute;
+  top: 765px;
+  left: 219px;
+}
 
 .block-bottom-big-text {
   font-size: 32px;
