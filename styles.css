@@ -5,7 +5,7 @@
 }
 
 .header {
-  background: url("img/header-bg-min.png") no-repeat;
+  background: url("/images/header-bg-min.png") no-repeat;
   background-size: contain;
   width: 1370px;
   height: 1057px;
