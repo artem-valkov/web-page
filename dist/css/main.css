@@ -3,7 +3,7 @@
   margin: 0; }
 
 .header {
-  background: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/dist/images/header-bg-min.png") no-repeat;
+  background: url("/images/header-bg-min.png") no-repeat;
   background-size: contain;
   width: 1370px;
   height: 1057px;
@@ -17,7 +17,7 @@
     border-radius: 0 0 15px 15px;
     position: absolute; }
   .header .top-bar .logo-text {
-    color: #fff;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     padding-left: 15px;
