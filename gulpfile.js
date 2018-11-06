@@ -12,6 +12,7 @@ const imagesBlob = 'src/images/**';
 const fontsBlob = 'src/fonts/**';
 const stylesBlob = 'src/css/**';
 const sassBlob = 'src/sass/**';
+const outSass = 'dist/css/&&'
 
 gulp.task('default', function () {
   return runSequence('build', 'serve');
@@ -86,9 +87,9 @@ gulp.task('reloadBrowser', function (done) {
 });
 
 gulp.task('sass', function() {
-  return  gulp.src('src/sass/main.sass')
+  return  gulp.src(sassBlob)
     .pipe(sass())
-    .pipe(gulp.dest('dist/css/'));
+    .pipe(gulp.dest(outSass));
 });
 
 gulp.task('reloadBrowser', function (done) {
